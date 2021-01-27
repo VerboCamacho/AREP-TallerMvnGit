@@ -1,7 +1,7 @@
 package edu.escuelaing.arem.ASE.app;
 
 /**
- * Hello world!
+ * class with the main metod
  * @author Verbo Camacho Villamarin
  */
 public class App 

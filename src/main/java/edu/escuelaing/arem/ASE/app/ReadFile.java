@@ -13,8 +13,8 @@ public class ReadFile {
     LinkedList lista = null;
     /**
      * Method to read the file
-     * @param  archivo
-     * @return lista LinkedList
+     * @param  archivo String
+     *
      */
     public ReadFile(String archivo) {
         try{

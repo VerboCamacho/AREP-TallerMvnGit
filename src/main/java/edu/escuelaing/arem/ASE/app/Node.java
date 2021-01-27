@@ -8,7 +8,7 @@ public class Node {
     private Node next;
     /**
      * Builder of Node with value and next (null)
-     * @param value
+     * @param value float
      */
     public Node(float value){
         this.next= null;
@@ -18,7 +18,7 @@ public class Node {
 
     /**
      * Method to return the Node's value
-     * @return value float
+     * @return valor float
      */
     public float getValue(){
         return valor;
