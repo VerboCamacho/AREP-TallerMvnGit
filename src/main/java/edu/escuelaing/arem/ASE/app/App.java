@@ -2,12 +2,19 @@ package edu.escuelaing.arem.ASE.app;
 
 /**
  * Hello world!
- *
+ * @author Verbo Camacho Villamarin
  */
 public class App 
 {
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        ReadFile data = new ReadFile("datos.txt");
+        LinkedList lista = data.getData();
+        Calculator calculo = new Calculator(lista);
+        System.out.printf("La media es: %.2f %n",calculo.mean());
+        System.out.printf("La desviacion estandar es: %.2f %n",calculo.standarDeviation());
     }
+
+
 }
