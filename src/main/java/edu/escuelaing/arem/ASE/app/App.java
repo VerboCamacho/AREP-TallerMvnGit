@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "A continucacion los resultados de la lista de numeros leidos en el archivo" );
         ReadFile data = new ReadFile("datos.txt");
         LinkedList lista = data.getData();
         Calculator calculo = new Calculator(lista);

@@ -40,7 +40,6 @@ public class AppTest{
         lista.addNode((float)1503);
         Calculator calculadora = new Calculator(lista);
         float result= calculadora.mean();
-        //System.out.println(calculadora.mean());
         Assert.assertEquals(550.6,result,1);
 
     }
@@ -61,7 +60,6 @@ public class AppTest{
         lista.addNode((float)624);
         lista.addNode((float)1503);
         Calculator calculadora = new Calculator(lista);
-        //System.out.println(calculadora.standarDeviation());
         Assert.assertEquals(572.02686,calculadora.standarDeviation(),1);
 
     }
