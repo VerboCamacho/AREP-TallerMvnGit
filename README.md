@@ -3,7 +3,7 @@ En este taller se realizaron los cálculos de media y desviación estándar a pa
 
 ## informe
 
-El informe se encuentra en este [LINK](informe.pdf)
+El informe se encuentra en este [LINK](Informe.pdf)
 
 ### Requerimentos
 
